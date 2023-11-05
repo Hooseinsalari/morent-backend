@@ -28,6 +28,10 @@
       "relation": "manyToOne",
       "target": "api::car.car",
       "inversedBy": "reviews"
+    },
+    "reviewFor": {
+      "type": "uid",
+      "required": true
     }
   }
 }
