@@ -30,8 +30,7 @@
       "inversedBy": "reviews"
     },
     "reviewFor": {
-      "type": "uid",
-      "required": true
+      "type": "string"
     }
   }
 }
